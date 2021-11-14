@@ -25,23 +25,23 @@ const Navigation = () => {
             className="justify-content-end"
           >
             <Nav>
-              <Nav.Link as={Link} to="/home">
+              <Nav.Link as={Link} to="/home"  className= "text-light">
                 Home
               </Nav.Link>
               {user.email && (
-                <Nav.Link as={Link} to={"/dashboard"}>
+                <Nav.Link as={Link} to={"/dashboard"} className= "text-light">
                   Dashboard
                 </Nav.Link>
               )}
               {user.email ? (
                 <div style={{backgroundColor:'red',paddingRight:"10px",borderRadius:'5px'}}>
-                  <Button variant="warning" onClick={logOut}>
+                  <Button variant="warning" onClick={logOut} className= "text-light">
                     Log Out
                   </Button>{" "}
                   {user?.displayName}
                 </div>
               ) : (
-                <Nav.Link as={Link} to="/login">
+                <Nav.Link as={Link} to="/login" className= "text-light">
                   LogIn/Register
                 </Nav.Link>
               )}

@@ -1,8 +1,8 @@
 welcome to my website:
-https://inspiring-johnson-faf0f1.netlify.app/
+https://brave-wing-46991c.netlify.app/
 
 My private github repository:
-https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-Repanb.git
+https://github.com/programming-hero-web-course-4/niche-website-client-side-Repanb.git
  (need access information)
 
 My personal github repository:
